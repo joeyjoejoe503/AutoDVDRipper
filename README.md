@@ -1,6 +1,9 @@
 Sudo apt install cifs-utils lsscsi -y 
-Lsscsi -g 
-**Should display DVD drive with two locations like /dev/sr0  and /dev/sg0.  These are needed for later 
+
+Lsscsi -g
+
+**Should display DVD drive with two locations like /dev/sr0  and /dev/sg0.  These are needed for later
+
 **Make directory for saving the rips (I set mine up as a samba share also) 
 curl -fsSL https://get.docker.com -o get-docker.sh 
 Sh get-docker.sh 
