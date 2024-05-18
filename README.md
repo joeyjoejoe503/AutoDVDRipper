@@ -1,3 +1,6 @@
+Connect DVD R/W drive to an available USB port and open a terminal. Follow these steps in order will ensure a problem free install. 
+
+
 Sudo apt install cifs-utils lsscsi -y 
 
 Lsscsi -g
