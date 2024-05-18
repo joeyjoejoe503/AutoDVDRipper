@@ -1,0 +1,12 @@
+[Unit]
+description=mkaemkv container
+requires=docker.service
+after=docker.service
+
+[service]
+restart=always
+execstart=/usr/bin/docker start -a makemkv
+execstop=/usr/bin/docker stop -t 2 makemkv
+
+[install]
+wantedby=default.target
