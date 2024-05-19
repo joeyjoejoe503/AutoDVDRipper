@@ -29,7 +29,7 @@ Sudo ./makemkv.sh
 
 **Make mkv should be open and have your DVD drive listed in the web UI. 
 
-Sudo nano /etc/systems/system/docker-makemkv.service 
+Sudo nano /etc/systemd/system/docker-makemkv.service 
 
 **Now create the docker-makemkv.service file
 
